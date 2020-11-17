@@ -12,7 +12,50 @@
 
   <title>Learn plus life</title>
 </head>
-
+<style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .centerdiv{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        a{
+            height: 55px;
+            width: 55px;
+            background-color: #ecf0f1;
+            border-radius: 50%;
+            text-align: center;
+            margin: 5px;
+            padding: 5px; 
+            line-height: 70px;  
+            box-shadow: .5px 2px 1px 1px #bdc3c7;     
+        }
+        a i{
+            transform: all 0.3s linear;
+        }
+        a:hover i{
+            transform: scale(1.2);
+        }
+        .fa-instagram{
+            color: #e84393;
+        }
+        .fa-facebook{
+            color:#3498db;
+        }
+        .fa-twitter{
+            color: #0097e6;
+        }
+        .fa-whatsapp{
+            color: #2ecc71;
+        }
+        .fa-youtube{
+            color:#c0392b;
+        }
+    </style>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Learn Plus Life</a>
@@ -95,6 +138,24 @@
   <footer class="container">
     <p class="float-right"><a href="#">Back to top</a></p>
     <p>© 2017-2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    <div class="centerdiv">
+        <a href="https://www.facebook.com/"  target="_blank">
+            <i class="fa fa-2x fa-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com/"  target="_blank">
+            <i class="fa fa-2x fa-twitter"></i>
+        </a>
+        <a href="https://www.whatsapp.com/"  target="_blank">
+            <i class="fa fa-2x fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/"  target="_blank">
+            <i class="fa fa-2x fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/"  target="_blank">
+            <i class="fa fa-2x fa-youtube"></i>
+        </a>
+
+    </div>
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
